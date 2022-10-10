@@ -12,17 +12,22 @@
 
 Задача 2
 > Чем Ansible выгодно отличается от других систем управление конфигурациями?
+
 Тем, что не требует отдельного PKI-окружения, использует существующую инфраструктуру SSH.
 
 > Какой, на ваш взгляд, метод работы систем конфигурации более надёжный push или pull?
+
 Без дополнительных вводных более надёжным методом, как мне кажется, является push. Администратор даёт команду "разлить" конфигурацию по машинам, и контролирует процесс. 
 
 Задача 3
 > Установить на личный компьютер:
 
 > VirtualBox
+
 > Vagrant
+
 > Ansible
+
 > Приложить вывод команд установленных версий каждой из программ, оформленный в markdown.
 
 C:\Program Files\Oracle\VirtualBox>VBoxSVC.exe --version
@@ -32,13 +37,23 @@ c:\vagrantconf>vagrant --version
 Vagrant 2.2.19
 
 -bash-5.0$ python3 -m pip show ansible
+
 Name: ansible
+
 Version: 6.4.0
+
 Summary: Radically simple IT automation
+
 Home-page: https://ansible.com/
+
 Author: Ansible, Inc.
+
 Author-email: info@ansible.com
+
 License: GPLv3+
+
 Location: /home/vagrant/.local/lib/python3.8/site-packages
+
 Requires: ansible-core
+
 Required-by:
