@@ -31,9 +31,11 @@
 > Приложить вывод команд установленных версий каждой из программ, оформленный в markdown.
 
 C:\Program Files\Oracle\VirtualBox>VBoxSVC.exe --version
+
 6.1.34r150636
 
 c:\vagrantconf>vagrant --version
+
 Vagrant 2.2.19
 
 -bash-5.0$ python3 -m pip show ansible
